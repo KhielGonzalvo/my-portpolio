@@ -65,13 +65,17 @@ body {
   border-radius: 20px;
 }
 
-
 .main-container {
   width: 100%;
   max-width: 1100px;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  background-image: url('image for html.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  padding: 24px;
 }
 
 .profile-banner {
