@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Gonzalvo Khiel Lorenz</title>
+
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  
+  <div class="navbar">
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html"id="active-link">Contact</a></li>
+      <li><a href="others.html">Others</a></li>
+    </ul>
+  </div>
+
+  
+  <div class="container contact-container">
+    
+    <div class="contact-form-box">
+      
+      
+      <div class="contact-info-header">
+        <p1 class="phone-text">📱 09708450053</p1>
+        <a href="mailto:khielgonzalvo567@gmail.com" class="email-link">📧 khielgonzalvo567@gmail.com</a>
+        <a href="https://www.facebook.com/KhielLorenzJGonzalvo/" target="_blank" class="fb-link">
+        <img src="fb logo.webp" alt="Facebook Logo" class="fb-logo">Khiel Gonzalvo</a>
+      </div>
+
+      
+      <h1 id="brand-title">GONZALVO KHIEL LORENZ</h1>
+      <p1 class="subtitle">CONTACT ME</p1>
+
+      
+      <form>
+        
+        <div class="form-group">
+          <input type="text" id="fullName" placeholder="Full Name">
+          <input type="text" id="emailAddr" placeholder="Email Address">
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="subject" placeholder="Subject">
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="message" placeholder="Message">
+        </div>
+
+        
+        <button type="button" id="submitBtn" onclick="submitMessage()">SUBMIT</button>
+      </form>
+
+    
+      <p1 id="feedbackText"></p1>
+    </div>
+
+  </div>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
